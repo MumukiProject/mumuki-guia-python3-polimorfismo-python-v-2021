@@ -1,4 +1,4 @@
- Ya está programado lo necesario para que los gatos puedan ser rehabilitados por estudiantes de veterinaria, ¿qué pasará con los caballos?¿Y con las golondrinas? :face_with_monocle:
+Ya está programado lo necesario para que los gatos puedan ser rehabilitados por estudiantes de veterinaria, ¿qué pasará con los caballos?¿Y con las golondrinas? :face_with_monocle:
 
 Suponiendo que ya contamos con el siguiente código:
 

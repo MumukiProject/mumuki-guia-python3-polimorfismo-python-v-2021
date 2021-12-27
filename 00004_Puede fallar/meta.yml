@@ -11,4 +11,4 @@ choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: pelu.rehabilitar(norita)
-name: Nuevo ejercicio
+name: Puede fallar
