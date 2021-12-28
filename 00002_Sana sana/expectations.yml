@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EstudianteDeVeterinaria
+  inspection: DeclaresComputation:rehabilitar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EstudianteDeVeterinaria
+  inspection: DeclaresComputationWithArity2:rehabilitar
