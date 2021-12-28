@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EstudianteDeVeterinaria
+  inspection: DeclaresComputation:puede_dar_el_alta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: EstudianteDeVeterinaria
+  inspection: DeclaresComputationWithArity2:puede_dar_el_alta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Gato
+  inspection: DeclaresComputation:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Gato
+  inspection: DeclaresComputationWithArity1:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Caballo
+  inspection: DeclaresComputation:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Caballo
+  inspection: DeclaresComputationWithArity1:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresComputation:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondrina
+  inspection: DeclaresComputationWithArity1:esta_feliz
