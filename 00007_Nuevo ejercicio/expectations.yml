@@ -24,3 +24,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Golondrina
   inspection: DeclaresComputationWithArity1:esta_feliz
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: puede_dar_el_alta
+  inspection: Not:UsesIf
