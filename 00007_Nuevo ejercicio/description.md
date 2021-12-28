@@ -10,8 +10,8 @@ class EstudianteDeVeterinaria:
   def rehabilitar(self):
     self.animal.recibir_rehabilitacion()
 
-  def aprueba(self):
-    self.animal.esta_feliz()
+  def puede_dar_el_alta(self,animal):
+    return self.animal.esta_feliz()
 
 class Gato:
   def __init__(self, energia, edad):
@@ -23,15 +23,12 @@ class Gato:
 
   def cumplir_anios(self):
     self.edad += 1
-
-  def quiere_comer(self):
-    return energia < 30
   
   def recibir_rehabilitacion(self):
     self.comer(400)
 
   def esta_feliz(self):
-    return not self.quiere_comer()
+    return self.energia > 30
 
 class Caballo:
   def __init__(self, energia, raza):
@@ -50,7 +47,7 @@ class Caballo:
     self.galopar(5)
 
   def esta_feliz(self):
-    return self.energia > 400
+    return True
 
 class Golondrina:
   def __init__(self, energia, ciudad):
@@ -68,4 +65,4 @@ class Golondrina:
     self.volar_hacia("Lihuel Calel")
   
   def esta_feliz(self):
-    return True
+    return self.ciudad = "Lihuel Calel"
