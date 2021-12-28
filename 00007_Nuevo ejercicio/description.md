@@ -2,14 +2,14 @@ Hacerle una pregunta al objeto que se comunica con los otros que dependa de su o
 
 class EstudianteDeVeterinaria:
 
-  def alimentar_animal(self, gramos):
-    self.animal.comer(gramos)
+  def alimentar_animal(self,animal, gramos):
+    animal.comer(gramos)
 
-  def rehabilitar(self):
-    self.animal.recibir_rehabilitacion()
+  def rehabilitar(self,animal):
+    animal.recibir_rehabilitacion()
 
   def puede_dar_el_alta(self,animal):
-    return self.animal.esta_feliz()
+    return animal.esta_feliz()
 
 class Gato:
   def __init__(self, energia, edad):
