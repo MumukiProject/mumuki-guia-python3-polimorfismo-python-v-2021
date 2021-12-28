@@ -1,8 +1,6 @@
 Hacerle una pregunta al objeto que se comunica con los otros que dependa de su objeto atributo. El objetivo es tratar encapsulamiento, responsabilidad y polimorfismo, tendría que ser una solución que se preste a resolverlo con if pero para ver que hay una opción superadora
 
 class EstudianteDeVeterinaria:
-  def __init__(self, animal):
-    self.animal
 
   def alimentar_animal(self, gramos):
     self.animal.comer(gramos)
