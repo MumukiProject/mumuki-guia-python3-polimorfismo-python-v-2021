@@ -27,3 +27,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: puede_dar_el_alta
   inspection: Not:UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esta_feliz
+  inspection: Not:UsesIf
