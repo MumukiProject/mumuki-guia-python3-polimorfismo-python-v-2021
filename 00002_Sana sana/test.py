@@ -1,4 +1,6 @@
-class Test(unittest.TestCase):
-
-  def test_description_example(self):
-    self.assertTrue(True)
+  
+  def test_El_método_rehabilitar_está_definido_en_la_clase_EstudianteDeVeterinaria(self):
+    agus = EstudianteVeterinaria()
+    self.assertTrue("rehabilitar" in dir(agus) and callable(agus.rehabilitar))
+    
+  #VER COMO TESTEAR LA EXCEPCIÓN
