@@ -1,13 +1,8 @@
-Definir 3 clases con sus atributos y sus constructores.
+¡Menos mal que les dimos el alta a los animales para que escapen! Ahora tenemos que lidiar con una invasión zombi. :zombie::woman_zombie:
 
-class Sobreviviente:
-  def __init__(self, una_adrenalina):
-    self.adrenalina = una_adrenalina
+Para ello vamos a definir tres clases de las cuales sabemos que:
 
-class Zombi:
-  def __init__(self, una_salud):
-    self.salud = una_salud
+* la clase `Sobreviviente` tiene un atributo `adrenalina`;
+* las clases `Zombi` y `SuperZombi` tienen un atributo  `hambre`.
 
-class SuperZombi:
-  def __init__(self, una_salud):
-    self.salud = una_salud
+> Definí las tres clases mencionadas con constructores que permitan dar un valor inicial a sus atributos.
