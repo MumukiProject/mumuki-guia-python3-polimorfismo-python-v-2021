@@ -21,4 +21,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`recibir_rehabilitacion` en `Golondrina`."
   checked: true
-name: Nuevo ejercicio
+name: Tratame indistintamente
