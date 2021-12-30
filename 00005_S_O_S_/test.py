@@ -3,7 +3,7 @@
     nano = Caballo(0,'Cuarto de Milla')
     self.assertTrue("recibir_rehabilitacion" in dir(nano) and callable(nano.recibir_rehabilitacion))
     
-  def test_Cuando_un_Caballo_recibe_rehabilitación_galopa_3_km,_come_3000_gramos_de_comida_y_vuelve_a_galopar_5_km(self):
+  def test_Cuando_un_Caballo_recibe_rehabilitación_galopa_3_km_come_3000_gramos_de_comida_y_vuelve_a_galopar_5_km(self):
     nano = Caballo(1000,'Cuarto de Milla')
     nano.recibir_rehabilitacion()
     self.assertEqual(nano.energia,6992)
