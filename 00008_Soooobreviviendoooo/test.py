@@ -5,7 +5,7 @@
     
 
   def test_Si_creo_un_nuevo_SuperZombi_le_puedo_especificar_su_hambre_inicial(self):
-    superZombi = SuperZombiZombi(44)
+    superZombi = SuperZombi(44)
     self.assertEqual(superZombi.hambre,44)
     
   def test_Si_creo_un_nuevo_Sobreviviente_le_puedo_especificar_su_adrenalina_inicial(self):
