@@ -1,12 +1,9 @@
 class EstudianteDeVeterinaria:
-  def __init__(self, animal):
-    self.animal
+  def alimentar_animal(self, animal, gramos):
+    animal.comer(gramos)
 
-  def alimentar_animal(self, gramos):
-    self.animal.comer(gramos)
-
-  def rehabilitar(self):
-    self.animal.recibir_rehabilitacion()
+  def rehabilitar(self, animal):
+    animal.recibir_rehabilitacion()
 
 class Gato:
   def __init__(self, energia, edad):
