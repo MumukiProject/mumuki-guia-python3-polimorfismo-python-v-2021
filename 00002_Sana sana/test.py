@@ -6,6 +6,4 @@
   def test_El_método_rehabilitar_hace_que_un_animal_reciba_rehabilitacion(self): 
     morfeo = Gato(100, 1000)
     agus = EstudianteDeVeterinaria()
-    agus.rehabilitar(morfeo)
-    self.assertEqual(morfeo.energia, 1000)
-  #VER COMO TESTEAR LA EXCEPCIÓN
+    self.assertRaises(AttributeError, agus.rehabilitar, morfeo)
