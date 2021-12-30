@@ -1,3 +1,7 @@
+Que lindos los animalitos, ¿qué bello dominio nos esperará a partir de ahora? :hugging:
+
+¡Esperen! ¿Qué es ese ruido? AAAHHHHH :scream:
+
 ¡Menos mal que les dimos el alta a los animales para que escapen! Ahora tenemos que lidiar con una invasión zombi. :zombie: :woman_zombie:
 
 Para ello vamos a definir tres clases de las cuales sabemos que:
