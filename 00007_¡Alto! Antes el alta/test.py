@@ -15,7 +15,7 @@
     nano = Caballo(0, 'Cuarto de milla')
     self.assertTrue(nano.esta_feliz())
     
-  def test_Una_golondrina_está_feliz_cuando_su_ciudad_es_'Lihuel Calel'(self):
+  def test_Una_golondrina_está_feliz_cuando_su_ciudad_es_Lihuel Calel(self):
     norita = Golondrina(0, 'Lihuel Calel')
     self.assertTrue(norita.esta_feliz())
     
