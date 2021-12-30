@@ -1,1 +1,1 @@
-Bueno, igual zombies que no saben hacer nada no son un gran peligro. Esperemos que eso se mantenga así. :eyes:
+Bueno, ahora estaría bueno poder defendernos de estos zombies. En el próximo ejercicio conseguiremos ayuda. :pray:
