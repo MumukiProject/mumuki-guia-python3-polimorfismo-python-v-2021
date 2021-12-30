@@ -32,4 +32,4 @@ expectations:
   inspection: Not:UsesIf
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Except:ShouldUseStrictComparators
+  inspection: Except:DoesTypeTest

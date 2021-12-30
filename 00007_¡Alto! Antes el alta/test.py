@@ -19,7 +19,7 @@
     norita = Golondrina(0, 'Lihuel Calel')
     self.assertTrue(norita.esta_feliz())
     
-  def test_Una_golondrina_no_está_feliz_cuando_su_ciudad_no_es_'Lihuel Calel'(self):
+  def test_Una_golondrina_no_está_feliz_cuando_su_ciudad_no_es_Lihuel_Calel(self):
     norita = Golondrina(0, 'Quilmes')
     self.assertFalse(norita.esta_feliz())
     
