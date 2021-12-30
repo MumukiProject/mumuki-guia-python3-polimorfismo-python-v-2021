@@ -1,41 +1,8 @@
-Definir comportamiento en esas 3 clases donde una interactúa con las otras dos polimórficamente. Introducir la idea de excepciones y que lancen una (ver si esto va en un ejercicio aparte entre el 8 y el 9).
+¡Llegó la salvación! Bah, no llegó, pero podemos programarla. :muscle:
 
-class Sobreviviente:
-  def __init__(self, una_adrenalina):
-    self.adrenalina = una_adrenalina
+Vamos definir la clase `Sobreviviente` que tiene un atributo `adrenalina` y puede `atacar` a un zombi (o super zombi) que reciba como argumento. Las instancias de la clase `Sobreviviente` pueden atacar solo si su contrincante no es un peligro y al hacerlo suceden dos cosas:
 
-  def atacar(self, un_zombi):
-    if not un_zombi.es_un_peligro():
-      un_zombi.recibir_danio(self.adrenalina / 2)
-      self.adrenalina += 20
-    else:
-      raise Exception('Es peligroso atacar a este zombi')
+1. el contrincante recibe daño con la mitad de la adrenalina de quien ataca;
+2. su adrenalina se incrementa en 20.
 
-class SuperZombi:
-  def __init__(self, una_salud):
-    self.salud = una_salud
-
-  def sabe_correr(self):
-    return True
-
-  def recibir_danio(self, puntos_danio):
-    self.salud = max(self.salud - puntos_danio, 0)
-
-  def es_un_peligro(self):
-    return True
-  
-  def regenerarse(self):
-    self.salud = 100
-
-class Zombi:
-  def __init__(self, una_salud):
-    self.salud = una_salud
- 
-  def sabe_correr(self):
-    return True
-
-  def recibir_danio(self, puntos_danio):
-    self.salud =  max(self.salud - (puntos_danio * 2), 0)
-
-  def es_un_peligro(self):
-    self.salud > 50
+> Definí la clase `Sobreviviente` con su constructor y el método `atacar`.
