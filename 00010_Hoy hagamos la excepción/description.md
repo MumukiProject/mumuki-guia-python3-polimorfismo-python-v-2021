@@ -2,11 +2,15 @@ Bien, ya tenemos forma de `atacar` a los zombis. Sin embargo, hay algo que no co
 
 Lo ideal sería que tengamos una forma de enterarnos si el ataque se llevó a cabo o no, sobre todo teniendo en cuenta que el mensaje es `atacar` y no `atacar_si_es_posible`.  Una solución posible es cambiar el nombre de nuestro método y ya. Peeeero, tenemos una propuesta superadora, ¡lanzar una excepción! :collision:
 
-En nuestro recorrido ya hemos visto muchas, por ejemplo al dividir por cero o al enviar un mensaje a un objeto que no lo entiende. Esas excepciones ya son parte del lenguaje y son indicaciones de que algo salió mal. Lo interesante es que podemos crear las nuestras utilizando `raise` de la siguiente forma:
+En nuestro recorrido ya hemos visto muchas, por ejemplo al dividir por cero o al enviar un mensaje a un objeto que no lo entiende. Esas excepciones ya son parte del lenguaje y son indicaciones de que algo salió mal. Lo interesante es que podemos lanzar nuestras propias excepciones utilizando `raise` de la siguiente forma...
 
 ```python
-raise Exception('Este es el mensaje de la excepción que estamos lanzando')
+ム raise Exception('Este es el mensaje de la excepción que estamos lanzando')
+```
 
+... y obtener una excepción así:
+
+```
 File "<input>", line 1, in <module>
 Exception: Este es el mensaje de la excepción que estamos lanzando
 ```
