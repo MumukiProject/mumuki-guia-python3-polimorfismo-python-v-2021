@@ -8,7 +8,7 @@ En nuestro recorrido ya hemos visto muchas, por ejemplo al dividir por cero o al
 ム raise Exception('Este es el mensaje de la excepción que estamos lanzando')
 ```
 
-... y obtener una excepción así:
+... y obtendremos lo siguiente:
 
 ```
 File "<input>", line 1, in <module>
