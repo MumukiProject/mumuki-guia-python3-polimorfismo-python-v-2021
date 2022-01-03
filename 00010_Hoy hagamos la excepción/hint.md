@@ -1,0 +1,1 @@
+La rama del `if`de `atacar` se mantiene tal como está. Lo que deberíamos hacer en este ejercicio es agregar un `else` para lanzar la excepción solicitada. :relieved:
