@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Sobreviviente
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Sobreviviente
+  inspection: DeclaresComputation:atacar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Sobreviviente
+  inspection: DeclaresComputationWithArity2:atacar
