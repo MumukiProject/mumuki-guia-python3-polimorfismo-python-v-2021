@@ -31,7 +31,7 @@
     morfeo.atacar(burgess)
     self.assertEqual(burgess.hambre,  100)
  
-def test_Un_sobreviviente_no_puede_atacar_a_un_super_zombi(self):
+  def test_Un_sobreviviente_no_puede_atacar_a_un_super_zombi(self):
     morfeo = Sobreviviente(40)
     orfeo = SuperZombi(10)
     morfeo.atacar(orfeo)
