@@ -1,4 +1,7 @@
-  
+  def test_Si_creo_un_nuevo_Sobreviviente_le_puedo_especificar_su_adrenalina_inicial(self):
+    sobreviviente = Sobreviviente(10)
+    self.assertEqual(sobreviviente.adrenalina,10)
+    
    def test_El_método_atacar_está_definido_en_la_clase_Sobreviviente(self):
     morfeo = Sobreviviente(100)
     self.assertTrue("atacar" in dir(morfeo) and callable(morfeo.atacar))
