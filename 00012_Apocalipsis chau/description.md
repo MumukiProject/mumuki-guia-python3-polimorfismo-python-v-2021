@@ -1,6 +1,6 @@
 Por suerte el equipo de sobrevivientes pudo frenar el apocalipsis zombi. El problema es que quedaron con hambre, ¡solucionémoslo!
 
-Para ello cambiemos de escenario y vayamos a un restaurante :pizza:. En este peculiar restaurante de comida italiana :flag_it: se dan algunos conflictos porque al equipo de chefs les gusta mucho lo picante y a sus ayudantes no tanto. :grimacing:
+Para ello cambiemos de escenario y vayamos a un restaurante :pizza:. En este peculiar restaurante de comida italiana se dan algunos conflictos porque al equipo de chefs les gusta mucho lo picante y a sus ayudantes no tanto. :flag_it:
 
 Del equipo de cocina sabemos que:
 
