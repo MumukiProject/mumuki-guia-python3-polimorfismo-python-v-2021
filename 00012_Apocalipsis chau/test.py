@@ -40,8 +40,17 @@
     roma.suavizar(muzarrela)
     self.assertEqual(muzarella.condimento, 'oregano')
 
+    
+  def test_Si_una_instancia_de_Chef_quiere_picantear_una_pasta_que_está_demasiado_picante_arroja_una_excepcion(self):
+    fideos = Pasta()
+    mora = Chef(fideos)
+    fideos.ajies = 11
+    self.assertRaisesRegex(Exception, "El plato ya está demasiado picante", mora.picantear, fideos)
+    
+  def test_Si_una_instancia_de_Chef_quiere_picantear_una_pizza_que_está_demasiado_picante_arroja_una_excepcion(self):
+    muzarella = Pizza()
+    mora = Chef(fideos)
+    muzarella.condimento = 'cayena'
+    self.assertRaisesRegex(Exception, "El plato ya está demasiado picante", mora.picantear, muzarella)
   
-Cuando el chef quiere picanterar una pasta que está demasiado picante arroja una excepción
-Cuando el chef quiere picanterar una pizza que está demasiado picante arroja una excepción
-
     
