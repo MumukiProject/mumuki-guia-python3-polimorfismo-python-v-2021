@@ -10,7 +10,11 @@
   def test_Un_gato_no_está_feliz_si_tiene_30_de_energia(self):
     kali = Gato(30, 13)
     self.assertFalse(kali.esta_feliz())
-    
+  
+  def test_Un_gato_no_está_feliz_si_tiene_menos_de_30_de_energia(self):
+    kali = Gato(29, 13)
+    self.assertFalse(kali.esta_feliz())
+  
   def test_Un_caballo_está__siempre_feliz(self):
     nano = Caballo(0, 'Cuarto de milla')
     self.assertTrue(nano.esta_feliz())
@@ -22,7 +26,6 @@
   def test_Una_golondrina_no_está_feliz_cuando_su_ciudad_no_es_Lihuel_Calel(self):
     norita = Golondrina(0, 'Quilmes')
     self.assertFalse(norita.esta_feliz())
-    
     
   def test_Una_instancia_de_EstudianteDeVeterinaria_puede_dar_el_alta_a_un_gato_si_está_feliz(self):
     ramona = EstudianteDeVeterinaria()
