@@ -20,5 +20,3 @@
     mora = PlantaCarnivoraZombi(30)
     mora.hacer_fotosintesis(30)
     self.assertEqual(mora.clorofila, 60)
-  
-  
