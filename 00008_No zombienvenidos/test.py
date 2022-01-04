@@ -42,7 +42,7 @@
     gaiman = Zombi(50)
     self.assertFalse(gaiman.es_un_peligro())
 
-  def test_Un_Zombi_no_sabe_regenerarse(self): 
-    caliope = Zombi(0)
-    self.assertRaisesRegex(AttributeError, "'Zombi' object has no attribute 'regenerarse'$", caliope.regenerarse)
  
+  def test_Un_Zombi_no_sabe_regenerarse(self):
+    caliope = Zombi(0)
+    self.assertFalse("regenerarse" in dir(caliope) and callable(caliope.regenerarse))
