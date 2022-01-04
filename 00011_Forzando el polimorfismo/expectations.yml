@@ -1,0 +1,29 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:PlantaCarnivoraZombi
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputationWithArity2:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputation:es_un_peligro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputationWithArity1:es_un_peligro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputation:hacer_fotosintesis
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputationWithArity2:hacer_fotosintesis
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputation:recibir_danio
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: PlantaCarnivoraZombi
+  inspection: DeclaresComputationWithArity2:recibir_danio
