@@ -4,4 +4,9 @@
     caliope = Zombi(100)
     self.assertRaisesRegex(Exception, "Es peligroso atacar a este zombi", hecate.atacar, caliope)
     
-  #self.assertRaisesRegex(AttributeError, "'Gato' object has no attribute 'recibir_rehabilitacion'$", agus.rehabilitar, morfeo)
+  def test_Si_un_sobreviviente_con_40_de_adrenalina_ataca_a_un_zombi_no_peligroso_lo_hace_con_20_de_daño(self):
+    morfeo = Sobreviviente(40)
+    burgess = Zombi(48)
+    morfeo.atacar(burgess)
+    self.assertEqual(burgess.hambre,  8)
+    
