@@ -38,7 +38,7 @@ expectations:
   inspection: DeclaresComputation:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputationWithArity1:recibir_danio
+  inspection: DeclaresComputationWithArity2:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputation:es_un_peligro
