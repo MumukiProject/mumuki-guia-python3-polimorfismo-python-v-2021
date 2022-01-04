@@ -20,6 +20,5 @@
     morfeo = Sobreviviente(100)
     burgess = Zombi(30)
     self.assertEqual(burgess.hambre, 0)
-    
-  # Que tire excepción cuando es un SuperZombi y cuando el hambre de un zombi es > 500
+
   
