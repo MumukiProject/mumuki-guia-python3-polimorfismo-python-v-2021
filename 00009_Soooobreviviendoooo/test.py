@@ -1,3 +1,4 @@
+
   def test_Si_creo_un_nuevo_Sobreviviente_le_puedo_especificar_su_adrenalina_inicial(self):
     sobreviviente = Sobreviviente(10)
     self.assertEqual(sobreviviente.adrenalina,10)
