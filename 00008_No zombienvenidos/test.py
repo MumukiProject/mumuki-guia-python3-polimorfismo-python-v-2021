@@ -45,3 +45,4 @@
   def test_Un_Zombi_no_sabe_regenerarse(self): 
     caliope = Zombi(0)
     self.assertRaisesRegex(AttributeError, "'Zombi' object has no attribute 'regenerarse'$", caliope.regenerarse)
+ 
