@@ -13,7 +13,7 @@
     morfeo.atacar(burgess)
     self.assertEqual(morfeo.adrenalina, 120)
     
-   def test_Si_un_sobreviviente_con_30_de_adrenalina_ataca_a_un_zombi_no_peligroso_lo_hace_con_15_de_daño(self):
+  def test_Si_un_sobreviviente_con_30_de_adrenalina_ataca_a_un_zombi_no_peligroso_lo_hace_con_15_de_daño(self):
     morfeo = Sobreviviente(30)
     burgess = Zombi(40)
     morfeo.atacar(burgess)
