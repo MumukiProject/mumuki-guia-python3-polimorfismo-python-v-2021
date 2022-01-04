@@ -1,6 +1,6 @@
 Por suerte el equipo de sobrevivientes pudo frenar el apocalipsis zombi. El problema es que quedaron con hambre, ¡solucionémoslo!
 
-Para ello cambiemos de escenario y vayamos a un restaurante :pizza:. En este peculiar restaurante de comida italiana se dan algunos conflictos porque al equipo de chefs les gusta mucho lo picante y a sus ayudantes no tanto. :flag_it:
+Para ello cambiemos de escenario y vayamos a un restaurante. En este peculiar restaurante de comida italiana se dan algunos conflictos porque al equipo de chefs les gusta mucho lo picante y a sus ayudantes no tanto. :grimacing:
 
 Del equipo de cocina sabemos que:
 
@@ -20,13 +20,13 @@ Mientras que de los platos podemos contar lo siguiente:
 > Definí las clases necesarias para poder hacer lo siguiente:
 >
 ```python
-ム fideos = Pasta()
-ム muzzarella = Pizza()
-ム jor = Chef(fideos)
-ム luchi = AyudanteDeCocina()
-ム jor.picantear()
-ム luchi.suavizar(fideos)
-ム jor.plato_del_dia = muzzarella
-ム luchi.suavizar(muzzarella)
-ム jor.picantear()
+fideos = Pasta()
+muzzarella = Pizza()
+jor = Chef(fideos)
+luchi = AyudanteDeCocina()
+jor.picantear()
+luchi.suavizar(fideos)
+jor.plato_del_dia = muzzarella
+luchi.suavizar(muzzarella)
+jor.picantear()
 ```
