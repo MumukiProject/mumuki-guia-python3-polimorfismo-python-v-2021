@@ -1,0 +1,47 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Pizza
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Pasta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:AyudanteDeCocina
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Chef
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Chef
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Chef
+  inspection: DeclaresComputationWithArity2:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Chef
+  inspection: DeclaresComputation:picantear
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Chef
+  inspection: DeclaresComputationWithArity1:picantear
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AyudanteDeCocina
+  inspection: Not:DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AyudanteDeCocina
+  inspection: DeclaresComputation:suavizar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: AyudanteDeCocina
+  inspection: DeclaresComputationWithArity2:suavizar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pasta
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pasta
+  inspection: DeclaresComputationWithArity1:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pizza
+  inspection: DeclaresComputation:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Pizza
+  inspection: DeclaresComputationWithArity1:__init__
