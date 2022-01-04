@@ -40,7 +40,7 @@
     self.assertEqual(gaiman.hambre, 60)
     
   def test_Si_un_zombi_con_hambre_70_recibe_15_de_danio_su_hambre_queda_en_40(self):
-    gaiman = SuperZombi(70)
+    gaiman = Zombi(70)
     gaiman.recibir_danio(15)
     self.assertEqual(gaiman.hambre, 40)
     
