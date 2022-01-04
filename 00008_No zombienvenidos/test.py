@@ -41,3 +41,7 @@
   def test_Un_Zombi_no_es_un_peligro_si_tiene_50_de_hambre(self):
     gaiman = Zombi(50)
     self.assertFalse(gaiman.es_un_peligro())
+
+  def test_Un_Zombi_no_sabe_regenerarse(self): 
+    caliope = Zombi(0)
+    self.assertRaisesRegex(AttributeError, "'Zombi' object has no attribute 'regenerarse'$", caliope.regenerarse)
