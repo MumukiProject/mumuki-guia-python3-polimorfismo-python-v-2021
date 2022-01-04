@@ -35,9 +35,9 @@
     self.assertEqual(gaiman.hambre, 80)
     
   def test_Un_Zombi_es_un_peligro_si_tiene_más_de_50_de_hambre(self):
-    gaiman = Zombi(50)
+    gaiman = Zombi(51)
     self.assertTrue(gaiman.es_un_peligro())
     
-  def test_Un_Zombi_no_es_un_peligro_si_tiene_20_de_hambre(self):
-    gaiman = Zombi(20)
+  def test_Un_Zombi_no_es_un_peligro_si_tiene_50_de_hambre(self):
+    gaiman = Zombi(50)
     self.assertFalse(gaiman.es_un_peligro())
