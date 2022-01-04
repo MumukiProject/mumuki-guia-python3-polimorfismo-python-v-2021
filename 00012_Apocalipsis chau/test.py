@@ -37,7 +37,6 @@
     roma.suavizar(muzarella)
     self.assertEqual(muzarella.condimento, 'orégano')
 
-    
   def test_Si_una_instancia_de_Chef_quiere_picantear_una_pasta_que_está_demasiado_picante_arroja_una_excepcion(self):
     fideos = Pasta()
     mora = Chef(fideos)
