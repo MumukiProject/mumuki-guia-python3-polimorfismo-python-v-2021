@@ -20,16 +20,3 @@
     
   # Que tire excepción cuando es un SuperZombi y cuando el hambre de un zombi es > 500
   
-   def test_Un_super_zombi_sabe_correr(self):
-    gaiman = SuperZombi(100)
-    self.assertTrue(milei.sabe_correr())
-    
-   def test_Un_super_zombi_sabe_regenerarse(self):
-    gaiman = SuperZombi(0)
-    gaiman.regenerarse()
-    self.assertEqual(gaiman.hambre, 100)
-    
-   def test_Si_un_super_zombi_con_hambre_100_recibe_20_de_danio_su_hambre_queda_en_80(self):
-    gaiman = SuperZombi(100)
-    gaiman.recibir_danio(20)
-    self.assertEqual(gaiman.hambre, 80)
