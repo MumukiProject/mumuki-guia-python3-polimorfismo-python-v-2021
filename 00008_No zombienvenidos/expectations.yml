@@ -2,19 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresClass:Sobreviviente
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
   inspection: DeclaresClass:Zombi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresClass:SuperZombi
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Sobreviviente
-  inspection: DeclaresComputation:__init__
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Sobreviviente
-  inspection: DeclaresComputationWithArity2:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputation:__init__
