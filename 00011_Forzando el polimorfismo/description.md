@@ -4,7 +4,7 @@ De ellas sabemos que:
 
 * tienen un atributo `clorofila`;
 * son un peligro cuando dicho atributo es mayor a 40;
-* saben `hacer_fotosintesis` por un tiempo, lo cual aumenta su `clorofila` en esa cantidad de tiempo;
+* saben `hacer_fotosintesis` por una cantidad de minutos, lo cual aumenta su `clorofila` en esa cantidad de minutos;
 * cuando reciben daño, su `clorofila` disminuye 10 unidades.
 
 :warning: Es importante tener en cuenta que si bien las plantas carnívoras zombis disminuyen siempre la misma cantidad de clorofila al recibir daño, deben ser polimórficas con los zombis y los super zombis por lo que es necesario que ese método tenga los mismos parámetros.

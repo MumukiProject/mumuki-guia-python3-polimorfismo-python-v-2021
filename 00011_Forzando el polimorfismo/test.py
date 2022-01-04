@@ -12,5 +12,10 @@
     mora = PlantaCarnivoraZombi(30)
     mora.recibir_danio(20)
     self.assertEqual(mora.clorofila, 20)
+    
+  def test_Si_una_planta_carnivora_zombi_hace_fotosintesis_por_30_minutos(self):
+    mora = PlantaCarnivoraZombi(30)
+    mora.recibir_danio(20)
+    self.assertEqual(mora.clorofila, 20)
   
   
