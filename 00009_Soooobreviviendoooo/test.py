@@ -13,16 +13,26 @@
     morfeo.atacar(burgess)
     self.assertEqual(morfeo.adrenalina, 120)
     
-  def test_Si_un_sobreviviente_con_30_de_adrenalina_ataca_a_un_zombi_con_hambre_inicial_40_su_hambre_queda_en_25(self):
+   def test_Si_un_sobreviviente_con_30_de_adrenalina_ataca_a_un_zombi_no_peligroso_lo_hace_con_15_de_daño(self):
     morfeo = Sobreviviente(30)
     burgess = Zombi(40)
     morfeo.atacar(burgess)
-    self.assertEqual(burgess.hambre, 25)
+    self.assertEqual(burgess.hambre,  10)
     
-  def test_Si_un_sobreviviente_con_100_de_adrenalina_ataca_a_un_zombi_con_hambre_inicial_30_su_hambre_queda_en_0(self):
-    morfeo = Sobreviviente(100)
-    burgess = Zombi(30)
+  def test_Si_un_sobreviviente_con_40_de_adrenalina_ataca_a_un_zombi_no_peligroso_lo_hace_con_20_de_daño(self):
+    morfeo = Sobreviviente(40)
+    burgess = Zombi(48)
     morfeo.atacar(burgess)
-    self.assertEqual(burgess.hambre, 0)
-
-  
+    self.assertEqual(burgess.hambre,  8)
+ 
+  def test_Un_sobreviviente_no_puede_atacar_a_un_zombi_peligroso(self):
+    morfeo = Sobreviviente(40)
+    burgess = Zombi(100)
+    morfeo.atacar(burgess)
+    self.assertEqual(burgess.hambre,  100)
+ 
+def test_Un_sobreviviente_no_puede_atacar_a_un_super_zombi(self):
+    morfeo = Sobreviviente(40)
+    orfeo = SuperZombi(10)
+    morfeo.atacar(orfeo)
+    self.assertEqual(orfeo.hambre,  10)
