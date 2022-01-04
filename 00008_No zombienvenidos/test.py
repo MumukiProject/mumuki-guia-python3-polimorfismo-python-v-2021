@@ -11,7 +11,7 @@
     gaiman = SuperZombi(100)
     self.assertTrue(gaiman.sabe_correr())
     
-  def test_Un_super_zombi_sabe_regenerarse(self):
+  def test_Un_super_zombi_pasa_a_tener_100_de_hambre_al_regenerarse(self):
     gaiman = SuperZombi(0)
     gaiman.regenerarse()
     self.assertEqual(gaiman.hambre, 100)
@@ -29,10 +29,10 @@
     gaiman = Zombi(100)
     self.assertTrue(gaiman.sabe_correr())
     
-  def test_Si_un_super_zombi_con_hambre_100_recibe_20_de_danio_su_hambre_queda_en_80(self):
-    gaiman = SuperZombi(100)
-    gaiman.recibir_danio(20)
-    self.assertEqual(gaiman.hambre, 80)
+  def test_Si_un_zombi_con_hambre_80_recibe_10_de_danio_su_hambre_queda_en_60(self):
+    gaiman = SuperZombi(80)
+    gaiman.recibir_danio(10)
+    self.assertEqual(gaiman.hambre, 60)
     
   def test_Un_Zombi_es_un_peligro_si_tiene_más_de_50_de_hambre(self):
     gaiman = Zombi(51)
@@ -41,7 +41,10 @@
   def test_Un_Zombi_no_es_un_peligro_si_tiene_50_de_hambre(self):
     gaiman = Zombi(50)
     self.assertFalse(gaiman.es_un_peligro())
-
+    
+  def test_Un_Zombi_no_es_un_peligro_si_tiene_menos_de_50_de_hambre(self):
+    gaiman = Zombi(49)
+    self.assertFalse(gaiman.es_un_peligro())
  
   def test_Un_Zombi_no_sabe_regenerarse(self):
     caliope = Zombi(0)
