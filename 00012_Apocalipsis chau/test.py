@@ -42,7 +42,7 @@
     fideos = Pasta()
     mora = Chef(fideos)
     fideos.ajies = 11
-    self.assertRaisesRegex(Exception, "El plato ya está demasiado picante", mora.picantear)
+    self.assertRaisesRegex(Exception, "El plato ya est[aá] demasiado picante", mora.picantear)
     
   def test_Si_una_instancia_de_Chef_quiere_picantear_una_pizza_que_está_demasiado_picante_arroja_una_excepcion(self):
     muzarella = Pizza()
