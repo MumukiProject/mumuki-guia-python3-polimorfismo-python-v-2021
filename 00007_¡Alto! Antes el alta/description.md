@@ -6,4 +6,4 @@ Para poder recibir el alta, el animal tiene que estar feliz. Sabemos que:
 * los caballos siempre están felices;
 * las golondrinas solo están felices cuando están en `"Lihuel Calel"`.
 
-> Definí en la clase `EstudianteDeVeterinaria` el método `puede_dar_el_alta` que reciba a un animal como argumento y el método `esta_feliz` en cada clase de animal.
+> Definí en la clase `EstudianteDeVeterinaria` el método `puede_dar_el_alta` que reciba a un animal como argumento y nos indique si cumple los requisitos. Para poder saber eso también es necesario que definas el método `esta_feliz` en cada clase de animal.
