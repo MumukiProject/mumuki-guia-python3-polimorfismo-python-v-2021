@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresClass:EstudianteDeVeterinaria
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: EstudianteDeVeterinaria
-  inspection: DeclaresComputation:alimentar
+  inspection: DeclaresMethod:alimentar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: EstudianteDeVeterinaria
   inspection: DeclaresComputationWithArity3:alimentar

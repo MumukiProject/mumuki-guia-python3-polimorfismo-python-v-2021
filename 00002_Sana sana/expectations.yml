@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: EstudianteDeVeterinaria
-  inspection: DeclaresComputation:rehabilitar
+  inspection: DeclaresMethod:rehabilitar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: EstudianteDeVeterinaria
   inspection: DeclaresComputationWithArity2:rehabilitar

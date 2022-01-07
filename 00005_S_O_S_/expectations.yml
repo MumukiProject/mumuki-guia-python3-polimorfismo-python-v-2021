@@ -2,13 +2,13 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Caballo
-  inspection: DeclaresComputation:recibir_rehabilitacion
+  inspection: DeclaresMethod:recibir_rehabilitacion
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Caballo
   inspection: DeclaresComputationWithArity1:recibir_rehabilitacion
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Golondrina
-  inspection: DeclaresComputation:recibir_rehabilitacion
+  inspection: DeclaresMethod:recibir_rehabilitacion
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Golondrina
   inspection: DeclaresComputationWithArity1:recibir_rehabilitacion

@@ -2,7 +2,7 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Gato
-  inspection: DeclaresComputation:recibir_rehabilitacion
+  inspection: DeclaresMethod:recibir_rehabilitacion
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Gato
   inspection: DeclaresComputationWithArity1:recibir_rehabilitacion
