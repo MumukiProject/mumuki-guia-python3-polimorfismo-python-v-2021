@@ -5,16 +5,16 @@ expectations:
   inspection: DeclaresClass:PlantaCarnivoraZombi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: PlantaCarnivoraZombi
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: PlantaCarnivoraZombi
-  inspection: DeclaresComputation:hacer_fotosintesis
+  inspection: DeclaresMethod:hacer_fotosintesis
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: PlantaCarnivoraZombi
-  inspection: DeclaresComputation:recibir_danio
+  inspection: DeclaresMethod:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: PlantaCarnivoraZombi
-  inspection: DeclaresComputation:es_un_peligro
+  inspection: DeclaresMethod:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: PlantaCarnivoraZombi
   inspection: DeclaresComputationWithArity2:__init__

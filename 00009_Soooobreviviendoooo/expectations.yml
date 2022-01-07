@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresClass:Sobreviviente
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Sobreviviente
-  inspection: DeclaresComputation:atacar
+  inspection: DeclaresMethod:atacar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Sobreviviente
   inspection: DeclaresComputationWithArity2:atacar

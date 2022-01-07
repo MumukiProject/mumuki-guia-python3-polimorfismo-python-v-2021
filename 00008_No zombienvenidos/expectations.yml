@@ -8,46 +8,46 @@ expectations:
   inspection: DeclaresClass:SuperZombi
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputationWithArity2:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:__init__
+  inspection: DeclaresMethod:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: DeclaresComputationWithArity2:__init__
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: Not:DeclaresComputation:regenerarse
+  inspection: Not:DeclaresMethod:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:regenerarse
+  inspection: DeclaresMethod:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: DeclaresComputationWithArity1:regenerarse
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:recibir_danio
+  inspection: DeclaresMethod:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputationWithArity2:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:recibir_danio
+  inspection: DeclaresMethod:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: DeclaresComputationWithArity2:recibir_danio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
-  inspection: DeclaresComputation:es_un_peligro
+  inspection: DeclaresMethod:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Zombi
   inspection: DeclaresComputationWithArity1:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
-  inspection: DeclaresComputation:es_un_peligro
+  inspection: DeclaresMethod:es_un_peligro
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: SuperZombi
   inspection: DeclaresComputationWithArity1:es_un_peligro
