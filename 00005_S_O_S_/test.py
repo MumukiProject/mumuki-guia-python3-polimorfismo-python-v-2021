@@ -6,7 +6,7 @@
   def test_Cuando_un_Caballo_recibe_rehabilitación_galopa_3_km_come_3000_gramos_de_comida_y_vuelve_a_galopar_5_km(self):
     nano = Caballo(1000,'Cuarto de Milla')
     nano.recibir_rehabilitacion()
-    self.assertEqual(nano.energia,60992)
+    self.assertEqual(nano.energia,6992)
     
   def test_El_método_recibir_rehabilitacion_está_definido_en_la_clase_Golondrina(self):
     norita = Golondrina(0,'General las Heras')
