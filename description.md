@@ -1,4 +1,4 @@
-En la lección anterior modelamos animales y definimos distintos métodos. Una particularidad que pudimos ver es que todos los animales entienden el mensaje `comer`. :eyes:
+En la lección anterior modelamos animales y definimos distintos métodos. Una particularidad que pudimos encontrar es que todos los animales entienden el mensaje `comer`. :eyes:
 
 ¿Será una simple coincidencia? ¿Podremos sacar algún beneficio? :thinking:
 
