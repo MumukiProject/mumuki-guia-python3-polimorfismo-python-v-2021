@@ -1,4 +1,4 @@
-Que lindos los animalitos, ¿qué bello dominio nos esperará a partir de ahora? :hugging:
+Que lindos los animalitos, ¿qué nos esperará a partir de ahora? :hugging:
 
 ¡Esperen! ¿Qué es ese ruido? AAAHHHHH :scream:
 
