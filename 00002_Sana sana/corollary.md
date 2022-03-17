@@ -1,6 +1,10 @@
-¿Y qué pasa si le enviamos el mensaje `rehabilitar` a una instancia de la clase `EstudianteDeVeterinaria` así como están las cosas? :thinking:
+Teniendo en cuenta que nuestro diagrama de clases ahora es el siguiente:
 
-Podés probarlo haciendo lo siguiente en la consola:
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-polimorfismo-python-v-2021/master/assets/clases_3_1647536154898.2.svg" alt="clases_3_1647536154898.2.svg" width="300px" height="auto">
+
+¿Qué pasará si le enviamos el mensaje `rehabilitar` a una instancia de la clase `EstudianteDeVeterinaria`? :thinking:
+
+Podés probarlo escribiendo lo siguiente en la consola:
 
 ```python
 ム pelu = EstudianteDeVeterinaria()
