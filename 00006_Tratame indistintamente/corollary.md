@@ -2,7 +2,7 @@ Los objetos polimórficos deben pertenecer a clases que entiendan un mismo mensa
 
 Si bien esta interfaz no se refleja a nivel código sí puede hacerse a nivel diagrama de clases. Para ello hay que hacer dos cosas:
 
-* darle un nombre a la interfaz, en este caso la llamaremos `Animal`, ya que `Caballo`, `Golondrina` y `Gato` son animales;
+* darle un nombre a la interfaz, en este caso la llamaremos `Animal`, ya que `Caballo`, `Golondrina` y `Gato` son animales. Distinguiremos a las interfaces de las clases agregando `(I)` a las primeras;
 * y conectar cada clase a la interfaz que implementa. Para esto utilizamos una flecha con línea punteada y punta cerrada:
 
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-polimorfismo-python-v-2021/master/assets/clases_3_1647958873199.6%20(4).svg" alt="clases_3_1647958873199.6 (4).svg" width="800px" height="auto">
