@@ -2,7 +2,7 @@
 
 Con estos nuevos métodos nuestro diagrama quedará así:
 
-DIAGRAMA DE CLASES
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-polimorfismo-python-v-2021/master/assets/clases_3_1648655704638.7%20(1).svg" alt="clases_3_1648655704638.7 (1).svg" width="800" height="auto">
 
 Dos cosas a remarcar del mismo:
 
