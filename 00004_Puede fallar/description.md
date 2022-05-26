@@ -11,10 +11,16 @@ Suponiendo que ya contamos con el siguiente código:
 
 > Probá en la consola lo siguiente:
 >
-```python
-ム pelu.rehabilitar(theo)
-ム pelu.rehabilitar(tornado)
-ム pelu.rehabilitar(norita)
+>```python
+ムpelu.rehabilitar(theo)
+```
+>
+>```python
+ムpelu.rehabilitar(tornado)
+```
+>
+>```python
+ムpelu.rehabilitar(norita)
 ```
 >
 ¿Funcionará para todos los casos?¿en cuáles crees que lanzará error? :thinking:
