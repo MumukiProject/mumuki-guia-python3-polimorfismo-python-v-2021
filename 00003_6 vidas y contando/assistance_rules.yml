@@ -1,0 +1,7 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - recibir_rehabilitacion Uses:comer
+  then: "`recibir_rehabilitacion` debe usar `comer` para evitar repetir lógica"
