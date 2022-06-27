@@ -1,4 +1,4 @@
-¿Y qué pasará si le enviamos el mensaje `rehabilitar` a una instancia de la clase `EstudianteDeVeterinaria`? :thinking:
+Ahora que definimos el método `rehabilitar` en la clase `EstudianteDeVeterinaria`, podemos enviarle el mensaje, ¿no? :thinking:
 
 Probémoslo escribiendo en orden en la consola:
 
