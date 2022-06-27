@@ -19,5 +19,5 @@ expectations:
   binding: Caballo.recibir_rehabilitacion
   inspection: Uses:comer
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: Golondrima.recibir_rehabilitacion
+  binding: Golondrina.recibir_rehabilitacion
   inspection: Uses:volar_hacia
