@@ -3,9 +3,9 @@
 Probémoslo escribiendo lo siguiente en la consola:
 
 ```python
-ム pelu = EstudianteDeVeterinaria()
-ム perez = Gato(30, 8)
-ム pelu.rehabilitar(perez)
+ムpelu = EstudianteDeVeterinaria()
+ムperez = Gato(30, 8)
+ムpelu.rehabilitar(perez)
 ```
 
 Otra vez el código lanzó un error :cry:.
