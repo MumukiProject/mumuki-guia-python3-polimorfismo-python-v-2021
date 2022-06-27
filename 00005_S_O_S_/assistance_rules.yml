@@ -1,0 +1,15 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Caballo.recibir_rehabilitacion Uses:galopar
+    - Caballo.recibir_rehabilitacion Uses:comer
+  then: el método `recibir_rehabilitacion` en la clase `Caballo` debe usar `comer`
+    y `galopar` para evitar repetir lógica
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - Golondrina.recibir_rehabilitacion Uses:volar_hacia
+  then: el método `recibir_rehabilitacion` en la clase `Golondrina` debe usar `volar_hacia`
+    para evitar repetir lógica
