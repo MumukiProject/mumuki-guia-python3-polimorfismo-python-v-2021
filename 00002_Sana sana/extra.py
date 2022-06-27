@@ -1,7 +1,7 @@
 class Gato:
-  def __init__(self,energia, edad):
-    self.energia = energia
-    self.edad = edad
+  def __init__(self,una_energia, una_edad):
+    self.energia = una_energia
+    self.edad = una_edad
 
   def comer(self,gramos):
     self.energia += gramos
@@ -10,9 +10,9 @@ class Gato:
     self.edad += 1
     
 class Golondrina:
-  def __init__(self,energia, ciudad):
-    self.energia = energia
-    self.ciudad = ciudad
+  def __init__(self,una_energia, una_ciudad):
+    self.energia = una_energia
+    self.ciudad = una_ciudad
 
   def comer(self,gramos):
     self.energia += gramos / 2
@@ -22,9 +22,9 @@ class Golondrina:
     self.energia /=  2 
     
 class Caballo:
-  def __init__(self,energia, raza):
-    self.energia = energia
-    self.raza = raza
+  def __init__(self,una_energia, una_raza):
+    self.energia = una_energia
+    self.raza = una_raza
 
   def comer(self,gramos):
     self.energia += gramos * 2

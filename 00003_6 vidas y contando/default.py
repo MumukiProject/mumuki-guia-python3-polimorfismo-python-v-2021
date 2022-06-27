@@ -1,7 +1,7 @@
 class Gato:
-  def __init__(self,energia, edad):
-    self.energia = energia
-    self.edad = edad
+  def __init__(self,una_energia, una_edad):
+    self.energia = una_energia
+    self.edad = una_edad
 
   def comer(self,gramos):
     self.energia += gramos
