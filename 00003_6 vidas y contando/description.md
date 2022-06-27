@@ -1,6 +1,6 @@
 ¿Y qué pasará si le enviamos el mensaje `rehabilitar` a una instancia de la clase `EstudianteDeVeterinaria`? :thinking:
 
-Probémoslo escribiendo lo siguiente en la consola:
+Probémoslo escribiendo en orden en la consola:
 
 ```python
 ムpelu = EstudianteDeVeterinaria()
