@@ -12,3 +12,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Golondrina
   inspection: DeclaresComputationWithArity1:recibir_rehabilitacion
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Caballo.recibir_rehabilitacion
+  inspection: Uses:galopar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Caballo.recibir_rehabilitacion
+  inspection: Uses:comer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Golondria.recibir_rehabilitacion
+  inspection: Uses:volar_hacia
