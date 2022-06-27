@@ -1,4 +1,15 @@
-Si en el ejercicio anterior probaste en la consola qué pasaba al enviarle `rehabilitar` a `pelu` con el gato `perez` como argumento habrás notado que el código lanzaba un error. Eso es porque los gatos no comprenden el mensaje `recibir_rehabilitacion`. 
+¿Y qué pasará si le enviamos el mensaje `rehabilitar` a una instancia de la clase `EstudianteDeVeterinaria`? :thinking:
+
+Probémoslo escribiendo lo siguiente en la consola:
+
+```python
+ム pelu = EstudianteDeVeterinaria()
+ム perez = Gato(30, 8)
+ム pelu.rehabilitar(perez)
+```
+
+Otra vez el código lanzó un error :cry:.
+Esto es porque los gatos no comprenden el mensaje `recibir_rehabilitacion`. 
 
 ¡Solucionemos esto! :muscle:
 
