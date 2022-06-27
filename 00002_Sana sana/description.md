@@ -1,4 +1,4 @@
-Quienes estudian veterinaria, algunas veces tienen que alimentar animales y otras ayudarlos en su rehabilitación. Para lograr este cometido, cada estudiante debe comprender el mensaje `rehabilitar` que toma como argumento un animal y le envía el mensaje `recibir_rehabilitacion`. :woman_health_worker: :man_health_worker:
+Quienes estudian veterinaria, algunas veces tienen que alimentar animales y otras ayudarlos en su rehabilitación. Para lograr este cometido, cada estudiante debe comprender el mensaje `rehabilitar` que toma como argumento un animal y le envía a este el mensaje `recibir_rehabilitacion`. :woman_health_worker: :man_health_worker:
 
 _¡Pero los animales no entienden ese mensaje!_
 
