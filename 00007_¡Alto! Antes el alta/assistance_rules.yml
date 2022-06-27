@@ -1,7 +1,0 @@
----
-rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    these_expectations_failed:
-    - puede_dar_el_alta Not:UsesIf
-  then: gracias al polimorfismo no tenemos que utilizar `if`s en el método `puede_dar_el_alta`
