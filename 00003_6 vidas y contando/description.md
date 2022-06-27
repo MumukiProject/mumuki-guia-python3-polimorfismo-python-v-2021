@@ -4,7 +4,11 @@ Probémoslo escribiendo lo siguiente en la consola:
 
 ```python
 ムpelu = EstudianteDeVeterinaria()
+```
+```python
 ムperez = Gato(30, 8)
+```
+```python
 ムpelu.rehabilitar(perez)
 ```
 
