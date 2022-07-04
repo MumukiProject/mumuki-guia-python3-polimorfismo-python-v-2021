@@ -1,0 +1,1 @@
+El contrincante puede ser un `Zombi` o un `SuperZombi`. :wink:
