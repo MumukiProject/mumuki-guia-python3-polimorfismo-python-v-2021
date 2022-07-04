@@ -1,1 +1,1 @@
-Bueno, ahora estaría bueno poder defendernos de estos zombies. En el próximo ejercicio conseguiremos ayuda. :pray:
+Bien, ahora estaría bueno poder defendernos de estos zombies. En el próximo ejercicio conseguiremos ayuda. :pray:
