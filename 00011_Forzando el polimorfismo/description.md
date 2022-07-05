@@ -7,6 +7,6 @@ De ellas sabemos que:
 * saben `hacer_fotosintesis` por una cantidad de minutos, lo cual aumenta su `clorofila` en esa cantidad;
 * cuando reciben daño, su `clorofila` disminuye 10 unidades.
 
-:warning: Es importante tener en cuenta que si bien las plantas carnívoras zombis disminuyen siempre la misma cantidad de clorofila al recibir daño, deben ser polimórficas con los zombis y los super zombis por lo que es necesario que ese método tenga los mismos parámetros.
+:warning: Es importante tener en cuenta que si bien las plantas carnívoras zombis disminuyen siempre la misma cantidad de clorofila al recibir daño, deben ser polimórficas con los zombis y los super zombis por lo que es necesario que ese método tenga los mismos parámetros. En otras palabras, colocaremos un parámetro que no vamos a utilizar para "forzar" el polimorfismo.
 
 > Definí la clase `PlantaCarnivoraZombi` con su constructor y los métodos `es_un_peligro`, `hacer_fotosintesis` y `recibir_danio`.

@@ -1,5 +1,3 @@
-Lo que acabamos de hacer al definir el método `recibir_danio` con un parámetro que no vamos a utilizar es forzar el polimorfismo.
+Para que dos métodos sean polimórficos no alcanza con que tengan el mismo nombre, también necesitamos que tengan los mismos parámetros. :sweat_smile:
 
-Quizás parece innecesario ponerlo pero si no lo hiciéramos no serían polimórficas con los zombis y super zombis, ya que aunque dos métodos tengan el mismo nombre pero con distinta cantidad de parámetros, no es el mismo.
-
-Esto traería como consecuencia que habría que definir en `Sobreviviente` un método que solo sirva para atacar plantas carnívoras zombis. :thumbsdown:
+Es por esto que forzamos el polimorfismo en el método `recibir_danio` de la clase `PlantaCarnivoraZombi`, ya que si no lo hiciéramos habría que definir en `Sobreviviente` un método que solo sirva para atacar plantas carnívoras zombis. :grimacing:
