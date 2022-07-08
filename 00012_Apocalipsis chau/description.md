@@ -12,7 +12,7 @@ Mientras que de los platos podemos contar lo siguiente:
 
 * las `Pasta`s tienen un atributo `ajies` que inicialmente es 0;
 * están demasiado picantes cuando tienen más de 10 `ajies`;
-* al ser picanteadas aumenta en 5 su cantidad de `ajies` y al ser suavizadas pierden 1. No te preocupes por si al `suavizar` nos queda una cantidad negativa de `ajies`, no vamos a considerar ese escenario;
+* al ser picanteadas aumenta en 5 su cantidad de `ajies` y al ser suavizadas pierden 1. No te preocupes por si al `suavizar` queda una cantidad negativa de `ajies`, no vamos a considerar ese escenario;
 * las `Pizza`s tienen `condimento` que inicialmente es `"adobo"`;
 * se considera que una pizza está demasiado picante si su condimento es `"cayena"`;
 * al suavizar una pizza su condimento pasa a ser `"orégano"` y al picantearla, `"cayena"`.
