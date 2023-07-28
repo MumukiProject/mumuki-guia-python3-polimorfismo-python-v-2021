@@ -7,8 +7,9 @@ type: interactive
 extra_visible: false
 teacher_info: ''
 manual_evaluation: false
+progressive_expectations: false
 choices: []
-goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+goal:
   kind: last_query_equals
   value: pelu.rehabilitar(norita)
 name: Puede fallar

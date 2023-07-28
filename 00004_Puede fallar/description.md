@@ -1,4 +1,4 @@
-Ya está programado lo necesario para que los gatos puedan ser rehabilitados por estudiantes de veterinaria, ¿qué pasará con los caballos?¿Y con las golondrinas? :face_with_monocle:
+Ya está programado lo necesario para que los gatos puedan ser rehabilitados por estudiantes de veterinaria, ¿qué pasará con los caballos? ¿Y con las golondrinas? :face_with_monocle:
 
 Suponiendo que ya contamos con el siguiente código:
 
@@ -23,4 +23,4 @@ Suponiendo que ya contamos con el siguiente código:
 ムpelu.rehabilitar(norita)
 ```
 >
-¿Funcionará para todos los casos?¿en cuáles crees que lanzará error? :thinking:
+¿Funcionará para todos los casos? ¿En cuáles creés que lanzará error? :thinking:

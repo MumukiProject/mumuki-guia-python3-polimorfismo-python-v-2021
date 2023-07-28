@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_expectations_failed:
     - Zombi Not:DeclaresMethod:regenerarse
   then: Si un `Zombi` no sabe regenerarse, no debería entender ese mensaje
