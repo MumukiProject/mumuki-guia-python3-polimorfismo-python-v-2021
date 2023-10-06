@@ -10,6 +10,9 @@ manual_evaluation: false
 progressive_expectations: false
 choices: []
 goal:
-  kind: last_query_equals
-  value: pelu.rehabilitar(norita)
+  kind: queries_match
+  regexps:
+  - "^pelu.rehabilitar\\s*\\(\\s*theo\\s*\\)\\s*$"
+  - "^pelu.rehabilitar\\s*\\(\\s*tornado\\s*\\)\\s*$"
+  - "^pelu.rehabilitar\\s*\\(\\s*norita\\s*\\)\\s*$"
 name: Puede fallar
